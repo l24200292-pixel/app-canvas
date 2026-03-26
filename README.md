@@ -1,4 +1,4 @@
-﻿# app-canvaspt ES6+ (Clases, Programación Orientada a Objetos).
+﻿# app-canvas
 # 🔵 Interactividad 2D: Light Glass Edition
 
 Proyecto desarrollado para la asignatura de **Graficación**. Esta aplicación web implementa una simulación interactiva de partículas utilizando la API de Canvas de HTML5, diseñada bajo principios de **Glassmorphism claro** y una interfaz moderna y minimalista.
