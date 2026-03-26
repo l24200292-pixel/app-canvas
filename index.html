@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactividad 2D | Light Glass Edition</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg glass-nav navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Lab<span class="highlight">Interact</span> 2.4</a>
+            </span>
+        </div>
+    </nav>
+
+    <main class="container my-auto py-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-11 text-center">
+                <div class="glass-card">
+                    <h2 class="mb-4 text-dark fw-bold">Panel de Interacción</h2>
+                    
+                    <div class="row mb-4 stats-container shadow-sm mx-1">
+                        <div class="col p-3 border-end"><strong>Eliminados:</strong> <span id="score" class="text-primary fw-bold">0</span></div>
+                        <div class="col p-3 border-end"><strong>Progreso:</strong> <span id="percent" class="text-primary fw-bold">0%</span></div>
+                        <div class="col p-3"><strong>Nivel:</strong> <span id="level" class="text-primary fw-bold">1</span></div>
+                    </div>
+
+                    <div class="canvas-holder shadow-lg">
+                        <canvas id="canvasInteraction"></canvas>
+                    </div>
+
+                    <p class="mt-4 text-muted fst-italic">Pasa el mouse para cambiar el color | Clic para eliminar</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="glass-footer py-3 mt-auto">
+        <div class="container text-center">
+            <p class="mb-0 text-muted">Desarrollado por: <strong>DIAZ ROSALES ANAHI</strong> | Graficación 2026</p>
+            <small class="text-muted">Ingeniería en Sistemas Computacionales</small>
+        </div>
+    </footer>
+
+    <script src="./assets/js/Circle.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
